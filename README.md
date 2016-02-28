@@ -4,7 +4,7 @@
 
 **vision** able to reorder table view cells based on drag and drop gesture.
 
-**methodology** coded in Swift, recycled code from the Objective-C libraries of [HPReorderTableView](https://github.com/hpique/HPReorderTableView) and [BVReorderTableView](https://github.com/bvogelzang/BVReorderTableView) to make a solution which works if the tableview data needs to be modified before and after a user reorders the list. Add optional functions  ```func reorderBefore(index: NSIndexPath) {}``` and ```func reorderAfter(fromIndex: NSIndexPath, toIndex:NSIndexPath) {}``` to listen for changes of the index path.
+**methodology** coded in Swift, recycled code from the Objective-C libraries of [HPReorderTableView](https://github.com/hpique/HPReorderTableView) and [BVReorderTableView](https://github.com/bvogelzang/BVReorderTableView) to make a solution which works if the tableview data needs to be modified before and after a user reorders the list. Add optional functions  ```func reorderBefore(index: NSIndexPath) {}``` and ```func reorderAfter(fromIndex: NSIndexPath, toIndex:NSIndexPath) {}``` to listen for changes of the index path and property ```reorderInitialIndexPath``` to update changes in the index path from the Controller.
 
 **status** working.
 
