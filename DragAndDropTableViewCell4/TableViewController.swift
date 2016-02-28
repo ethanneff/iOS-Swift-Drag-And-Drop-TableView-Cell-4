@@ -37,7 +37,7 @@ class TableViewController: UITableViewController {
   // MARK: - reorder functions
   // (optional but needed to reorder your data behind the view)
   func reorderBefore(index: NSIndexPath) {
-    
+    // if you update the tableView before the reorder, you need to update the tableView.reorderInitalIndexPath
   }
   
   
