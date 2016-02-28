@@ -40,6 +40,7 @@ class TableViewController: UITableViewController {
     
   }
   
+  
   func reorderAfter(fromIndex: NSIndexPath, toIndex:NSIndexPath) {
     // update view data (reorder based on direction moved)
     let ascending = fromIndex.row < toIndex.row ? true : false
@@ -51,7 +52,7 @@ class TableViewController: UITableViewController {
     print(items)
   }
   
-  
+
   
   // MARK: - table view datasource
   override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
