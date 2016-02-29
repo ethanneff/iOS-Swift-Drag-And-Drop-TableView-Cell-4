@@ -7,6 +7,7 @@
 //
 
 // TODO: memory leak when moving and dropping
+// TODO: don't use selectors abd property changes to communicate with controller, use a delegate
 
 import UIKit
 
